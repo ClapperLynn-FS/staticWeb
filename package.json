@@ -4,7 +4,8 @@
   "description": "static web",
   "main": "server.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start":"nodemon server"
   },
   "keywords": [
     "Nodejs",
@@ -13,5 +14,12 @@
     "Express"
   ],
   "author": "Lynn  Clapper",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
