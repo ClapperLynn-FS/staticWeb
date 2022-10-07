@@ -1,0 +1,17 @@
+{
+  "name": "staticweb",
+  "version": "1.0.0",
+  "description": "static web",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "Nodejs",
+    "Website",
+    "Static",
+    "Express"
+  ],
+  "author": "Lynn  Clapper",
+  "license": "MIT"
+}
